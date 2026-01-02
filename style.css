@@ -87,6 +87,7 @@ section {
 #hero {
     text-align: center;
     padding: 4rem 0;
+    margin-bottom: 0px;
 }
 
 #hero h1 {
@@ -97,6 +98,44 @@ section {
 
 #hero p {
     font-size: 1.2rem;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.profile-photo {
+    width: 248px;
+    height: 248px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--border-color);
+}
+
+.social-icons {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.social-icons a {
+    color: var(--text-color);
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons a:hover {
+    opacity: 0.7;
+}
+
+.social-icons .icon {
+    width: 32px;
+    height: 32px;
 }
 
 h2 {
